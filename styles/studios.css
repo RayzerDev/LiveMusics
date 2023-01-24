@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background/studio1.jpg");
+    background-position-y: top;
+    height: 50vh;
+    width: 100%;
+}
+.banner h1{
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+}
+.container{
+    width: 100%;
+}
+.planning{
+    display: flex;
+    margin: auto;
+    overflow-x: auto;
+}
+table {
+    table-layout: auto;
+    border: 3px black solid;
+    box-shadow: 0 8px 20px -4px hsl(0, 0%,10%);
+    margin: 10px auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+tbody .jour{
+    border: 2px solid;
+}
+th{
+    background-color: #ff6000;
+    padding: 10px 20px;
+}
+td {
+    background-color: rgba(0,0,0,0.7);
+    padding: 6px;
+    text-align: center;
+}
+.legendes{
+    display: flex;
+}
+.description{
+    width: 300px;
+}
+.off{
+    background-color: rgb(255, 31, 31);
+}

@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+.banner{
+    background-image: url("../images/background/bass1.jpg");
+}
+h1{
+    font-size: 5vmin;
+    margin-bottom: 5vh;
+}
+h2{
+    margin: 20px;
+}
+ol{
+    margin: 20px;
+}
+ol > li{
+    list-style-image: url("../images/icons/check.svg");
+    list-style-position: inherit;
+}

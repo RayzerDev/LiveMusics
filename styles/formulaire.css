@@ -1,0 +1,105 @@
+#contact{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../images/background/guitare2.jpg");
+    display: grid;
+    grid-template-rows: 100px;
+}
+#candidature{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../images/background/batterie1.jpg");
+    display: grid;
+    grid-template-rows: 100px;
+}
+.form-container{
+    display: flex;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.466);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    color: #fea347;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+fieldset{
+    border: 0;
+}
+legend {
+    padding-bottom: 10px;
+}
+label{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FF6600;
+    width: fit-content;
+    text-align: left;
+}
+input[type=file]{
+    display: none;
+}
+label[for="video"]{
+    border: 1px solid #FF6600;
+    cursor: pointer;
+    background: 0;
+    padding: 10px;
+}
+label[for="video"]{
+    transition: all 0.3s;
+    border: 1px solid #FF6600;
+    cursor: pointer;
+    background: 0;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+label[for="video"]:hover {
+    background: #FF6600;
+    color: #000;
+}
+textarea{
+    height: 200px;
+}
+input, textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-height: 40px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    background: none;
+    outline: none;
+    border: 0;
+    transition: all 0.3s;
+    border-bottom: 2px solid #fea347;
+}
+*::placeholder{
+    color: white;
+}
+input:focus, textarea:focus {
+    transition: all 0.3s;
+    border-bottom: 2px solid #FF6600;
+}
+label:before {
+    margin: 28px 0 0;
+    font-size: 2vmin;
+    color: #FF6600;
+}
+input[type=submit]{
+    font-size: 2vmin;
+    background: #FF6600;
+    width: fit-content;
+    padding: 8px 12px;
+    margin: 20px auto;
+    border: 2px solid #FF6600;
+    border-radius: 5%;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input[type=submit]:hover {
+    background: 0;
+    color: #fff;
+}

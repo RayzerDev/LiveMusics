@@ -1,0 +1,27 @@
+body{
+    background-color: #121212;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background/guitariste1.jpg");
+    height: 50vh;
+    width: 100%;
+}
+.banner h1{
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    padding: 10px;
+}
+.content{
+    text-align: left;
+    margin: 50px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.content h2{
+    margin: 30px;
+    color: #FEA347;
+}

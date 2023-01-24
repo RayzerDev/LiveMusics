@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+h2{
+    margin: 20px;
+}
+.banner{
+    background-image: url("../images/background/festival3.jpg");
+}
+h3 a:hover {
+    text-decoration: underline;
+}
+.card:hover {
+    background-color: #282828;
+}
+.cover {
+    position: relative;
+}
+.cover img {
+    display: block;
+    width: 150px;
+    box-shadow: 0 8px 20px -4px hsl(0, 0%, 5%);
+}
+.cover span{
+    margin: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: rgba(0,0,0,.6);
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s, transform 1s;
+}
+.card:hover .cover span{
+    opacity: 1;
+}
