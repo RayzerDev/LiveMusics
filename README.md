@@ -1,4 +1,4 @@
-# ![Logo de Live Musics ](https://rayzerdev.github.io/Live_Musics/images/logo/logo-white.svg#right =30x20 ) Live Musics ![Logo de Live Musics ](https://rayzerdev.github.io/Live_Musics/images/logo/logo.svg#right =30x20 )
+# ![Logo de Live Musics ](https://rayzerdev.github.io/Live_Musics/images/logo/logo-white.svg#right =30x20 ) | Live Musics | ![Logo de Live Musics ](https://rayzerdev.github.io/Live_Musics/images/logo/logo.svg#right =30x20 )
 ![Background](https://rayzerdev.github.io/Live_Musics/images/background/reccord1.jpg)
 ## Qu'est-ce que Live Musics ?
 Live Musics est une entreprise que nous avons imaginé en groupe pour un projet, dans le cadre de mon BUT Informatique. 
